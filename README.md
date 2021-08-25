@@ -35,3 +35,7 @@ CUDA_VISIBLE_DEVICES=0 python main.py dataset 'online_products'
 ```linux
 CUDA_VISIBLE_DEVICES=0 python main.py dataset 'in_shop'
 ```
+## Note.
+
+This repository contains some codes from: https://github.com/Confusezius/Deep-Metric-Learning-Baselines
+
