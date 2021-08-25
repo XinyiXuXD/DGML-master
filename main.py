@@ -25,13 +25,6 @@ import sys
 from termcolor import cprint
 
 
-# p = '/mnt/dive/shared/xyxu/projects/my-DML-projects/GDML-20210722/Training_Results/online_products/resnet50_frozen_normalize-margin1.0-learn_q-dirdiv_bd0.03-k3-cn25_2-23-9/checkpoint_Test_discriminative_e_recall@1.pth.tar'
-# best_model = torch.load(p)
-# for key in best_model['state_dict'].keys():
-#     print(key)
-# print('finish')
-
-
 def main(args):
     full_training_start_time = time.time()
     outline.set_random_seed(args.seed)
