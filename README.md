@@ -1,7 +1,7 @@
 # Towards Improved and Interpretable Deep Metric Learning via Attentive Grouping
 This repository is an official PyTorch implementation of DGML in "Towards Improved and Interpretable Deep Metric Learning via Attentive Grouping". For more insights, please refer to our paper.
 
-[Xinyi Xu](https://xinyixuxd.github.io/), [Zhengyang Wang](https://zhengyang-wang.github.io/), [Cheng Deng](https://see.xidian.edu.cn/faculty/chdeng/), [Hao Yuan](https://sites.google.com/site/hyuanustc) [Shuiwang Ji](http://people.tamu.edu/~sji/). [Towards Improved and Interpretable Deep Metric Learning via Attentive Grouping](https://arxiv.org/pdf/2011.08877.pdf)
+[Xinyi Xu](https://xinyixuxd.github.io/), [Zhengyang Wang](https://zhengyang-wang.github.io/), [Cheng Deng](https://see.xidian.edu.cn/faculty/chdeng/), [Hao Yuan](https://sites.google.com/site/hyuanustc), and [Shuiwang Ji](http://people.tamu.edu/~sji/). [Towards Improved and Interpretable Deep Metric Learning via Attentive Grouping](https://arxiv.org/pdf/2011.08877.pdf)
 
 ## Reference
 ```
