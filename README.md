@@ -29,3 +29,9 @@ CUDA_VISIBLE_DEVICES=0 python main.py dataset 'cub200' or
 CUDA_VISIBLE_DEVICES=0 python main.py dataset 'cars196' or
 
 CUDA_VISIBLE_DEVICES=0 python main.py dataset 'online_products'
+```
+
+* We also provide the results of in_shop dataset and achive 88.93% of recall@1 evaluation metric, which is not given in our paper. To get the results, run
+```linux
+CUDA_VISIBLE_DEVICES=0 python main.py dataset 'in_shop'
+```
