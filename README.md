@@ -37,5 +37,5 @@ CUDA_VISIBLE_DEVICES=0 python main.py dataset 'in_shop'
 ```
 ## Note.
 
-This repository contains some codes from: https://github.com/Confusezius/Deep-Metric-Learning-Baselines
+This repository contains partly codes from: https://github.com/Confusezius/Deep-Metric-Learning-Baselines
 
