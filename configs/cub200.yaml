@@ -1,0 +1,30 @@
+data_path: '/mnt/dive/shared/xyxu/datasets/cub200'
+savename: 'best'
+arch: 'resnet50_frozen_normalize'
+
+seed: 4
+BS: 112
+n_epochs: 100
+
+group_name: 'LearnQ_fen'
+k: 3
+reduction: 8
+
+tau: '[55, 1000]'
+gamma: 0.3
+decay: 0.003
+key_val_decay: 0.003
+que_decay: 0.001
+
+ft_params_lr: 1e-5
+new_params_lr: 1e-5
+
+loss_emb_name: 'Margin'
+loss_div_name: 'DivBD'
+lam_div: 0.02
+
+cn: 25
+loss_margin_beta_lr: 5e-5
+
+eval_begin: 49
+eval_every: 1
