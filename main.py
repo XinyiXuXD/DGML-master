@@ -92,9 +92,6 @@ if __name__ == '__main__':
     conf.merge_from_file(f'./configs/{conf.dataset}.yaml')
     conf.merge_from_list(sys.argv[1:])
 
-    if not os.path.exists(conf.data_path):
-        conf.data_path = conf.data_path.replace('/dive', '/data')
-
     conf.save_path = os.getcwd() + '/Training_Results/' + conf.dataset
 
     conf.dim = conf.full_dim // conf.k
