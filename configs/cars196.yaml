@@ -1,7 +1,7 @@
 data_path: '/mnt/dive/shared/xyxu/datasets/cars196'
 savename: 'best'
 arch: 'resnet50_frozen_normalize'
-seed: 1
+seed: 4
 BS: 112
 n_epochs: 200
 
