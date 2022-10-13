@@ -14,7 +14,8 @@ This repository is an official PyTorch implementation of DGML in "Towards Improv
 ```
 
 ## Requirements
-* Pytorch
+* Python 3.6+
+* Pytorch 1.2.0+
 * yacs
 * numpy
 * matplotlib
